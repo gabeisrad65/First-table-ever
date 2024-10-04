@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+.table {
+    background-color: aqua;
+    border: 2px solid black;
+    height: auto;
+    width: 600px;
+    display: flexbox;
+    flex-wrap: wrap;
+    font-family: monospace;
+    border-radius: 1%;
+}
+
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    background-color: #f8b7e8;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    border-radius: 5%;
+}
+th {
+    background-color: #ec65cb;
+    color: white;
+    border-radius: 5%;
+}
+
+#description {
+    text-align: center;
+}
